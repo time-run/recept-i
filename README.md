@@ -24,13 +24,13 @@ recept-i is a single page application where the content is loaded externally usi
 
 The main application can be accessed via the index.html. As soon as the application has started, several files are imported from the 'set' directory. Therefore the folder recipe-i/set contains all css- and js-files, also the fontello font and graphics.
 
-*[set/js/basic.js](/recipe-i/set/js/basic.js) - Like JQuery, this library contains basic functions like adding one element to another, adding and removing classes from elements, or requesting an Ajax statement
-*[set/js/zxing.js](/recipe-i/set/js/zxing.js) - This dependency adds a barcode scanner
-*[set/js/setting.js](/recipe-i/set/js/setting.js) - This script creates a GUI-based switch menu with different switch modules
-*[set/js/base.js](/recipe-i/set/js/base.js) - The actual application is controlled using this script
+* [set/js/basic.js](/recipe-i/set/js/basic.js) - Like JQuery, this library contains basic functions like adding one element to another, adding and removing classes from elements, or requesting an Ajax statement
+* [set/js/zxing.js](/recipe-i/set/js/zxing.js) - This dependency adds a barcode scanner
+* [set/js/setting.js](/recipe-i/set/js/setting.js) - This script creates a GUI-based switch menu with different switch modules
+* [set/js/base.js](/recipe-i/set/js/base.js) - The actual application is controlled using this script
 
-*[set/css/fontello.css](/recipe-i/set/css/fontello.css) - Fontello Icon Font
-*[set/css/app.css](/recipe-i/set/css/app.css) - Layout and style of web application
+* [set/css/fontello.css](/recipe-i/set/css/fontello.css) - Fontello Icon Font
+* [set/css/app.css](/recipe-i/set/css/app.css) - Layout and style of web application
 
 ### Enter and scan items
 
