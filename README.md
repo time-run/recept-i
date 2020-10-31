@@ -35,12 +35,12 @@ The main application can be accessed via the index.html. As soon as the applicat
 ### App functionality
 
 The mobile web app is divided into modules and views. 
-* **Preview module:** First, the user has to accept the guidelines. When the web app is called up again, only a loading screen appears.
+* **Preview module and view:** First, the user has to accept the guidelines. When the web app is called up again, only a loading screen appears.
 * **Structure module:** The skeleton of the main application.
-* **Fridge view:** In this view the user can scan or type in all ingredients.
-* **Settings view:** In this view the user can set all filters.
-* **Multi recipes view:** All recipes according to the filters applied are listed.
-* **Single recipe view:** The view of the selected recipe.
+** **Fridge view:** In this view the user can scan or type in all ingredients.
+** **Settings view:** In this view the user can set all filters.
+** **Multi recipes view:** All recipes according to the filters applied are listed.
+** **Single recipe view:** The view of the selected recipe.
 
 ### Enter and scan items
 
