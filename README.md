@@ -1,11 +1,11 @@
 # recept-i
 A submission to the [IT-Talents Code Competition](https://www.it-talents.de/foerderung/code-competition/code-competition-10-2020-edeka-digital). 
 
-Native JS-based "What's in my fridge" web application with basic functionallity, barcode scanner and advanced search of recepts. Check out this [live demo](https://www.shot-boehm.com/apps/recept-i/). 
+Native JS-based "What's in my fridge" web application with basic functionallity, barcode scanner and advanced search of recepts. Check out this [live demo](https://www.shot-boehm.com/apps/recipe-i/). 
 
-If you have not received this project by clonining from git, check out the [repository](https://github.com/time-run/recept-i/).
+If you have not received this project by clonining from git, check out the [repository](https://github.com/time-run/recipe-i).
 
-![recept-i-fridge](/images/recept-i-fridge.png)
+![recipe-i-fridge](/images/recept-i-fridge.png)
 
 ## Features
 * Basic functions - add, remove items by typing name or scanning barcode
