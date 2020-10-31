@@ -32,14 +32,27 @@ The main application can be accessed via the index.html. As soon as the applicat
 * [set/css/fontello.css](/recipe-i/set/css/fontello.css) - Fontello Icon Font
 * [set/css/app.css](/recipe-i/set/css/app.css) - Layout and style of web application
 
+### App functionality
+
+The mobile web app is divided into modules and views. 
+* **Preview module:** First, the user has to accept the guidelines. When the web app is called up again, only a loading screen appears.
+* **Structure module:** The skeleton of the main application.
+* **Fridge view:** In this view the user can scan or type in all ingredients.
+* **Settings view:** In this view the user can set all filters.
+* **Multi recipes view:** All recipes according to the filters applied are listed.
+* **Single recipe view:** The view of the selected recipe.
+
 ### Enter and scan items
 
 With ZXing, barcodes can be scanned and their sequence of digits read. For this method a camera connected to the device is required. Using Ajax and the Open Food Facts Api, the article numbers (EAN-13 or EAN-8) can be assigned to the products. The barcode scan is canceled once the product has been identified or can be canceled by clicking on the screen. After that, Js based elements are added to the DOM. Also, all items are stored in the local storage.
 
 ### Search for recipes
 
+The Spoonacular Api, which is available free of charge to a limited extent, is used to search for the recipes. Filters such as diets and intolerances, but also the occasion and times can be changed with the settings module. With an api request you get the desired recipes sorted according to the available ingredients. Note: sometimes the request is interrupted or takes a long time.
 
+### Detailed recipe
 
+After a recipe has been selected, the required ingredients and steps are displayed. In this mode you also ave a checklist for all ingredients.
 
 ## Dependencies
 
@@ -50,7 +63,7 @@ With ZXing, barcodes can be scanned and their sequence of digits read. For this 
 
 ## Installation
 
-Download the "recipe-i" folder or use npm.
+Download the "recipe-i"-folder or use npm.
 
 ## Copyright and License
 
