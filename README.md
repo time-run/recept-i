@@ -3,12 +3,12 @@ A submission to the [IT-Talents Code Competition](https://www.it-talents.de/foer
 
 Native JS-based "What's in my fridge" web application with basic functionallity, barcode scanner and advanced search of recepts. Check out this [live demo](https://www.shot-boehm.com/apps/recipe-i/). 
 
-If you have not received this project by clonining from git, check out the [repository](https://github.com/time-run/recipe-i).
+If you have not received this project by cloning from git, check out the [repository](https://github.com/time-run/recipe-i).
 
 ![recipe-i-fridge](/images/recept-i-fridge.png)
 
 ## Features
-* Basic functions - add, remove items by typing name or scanning barcode
+* Basic functions - add, remove items by type in name or scanning barcode
 * Search and find recepts by ingredients
 * Filter recepts by diet, type and time
 * Detailed recipe description with checklist
