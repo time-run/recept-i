@@ -20,7 +20,26 @@ If you have not received this project by cloning from git, check out the [reposi
 
 ### Project Structure
 
-Folder recipe-i/set contains all css- and js-files, also the fontello font and graphics.
+recept-i is a single page application where the content is loaded externally using js. Only the policy website is stored in its own individual file in order to be displayed correctly even if Javascript is deactivated.
+
+The main application can be accessed via the index.html. As soon as the application has started, several files are imported from the 'set' directory. Therefore the folder recipe-i/set contains all css- and js-files, also the fontello font and graphics.
+
+*[set/js/basic.js](/recipe-i/set/js/basic.js) - Like JQuery, this library contains basic functions like adding one element to another, adding and removing classes from elements, or requesting an Ajax statement
+*[set/js/zxing.js](/recipe-i/set/js/zxing.js) - This dependency adds a barcode scanner
+*[set/js/setting.js](/recipe-i/set/js/setting.js) - This script creates a GUI-based switch menu with different switch modules
+*[set/js/base.js](/recipe-i/set/js/base.js) - The actual application is controlled using this script
+
+*[set/css/fontello.css](/recipe-i/set/css/fontello.css) - Fontello Icon Font
+*[set/css/app.css](/recipe-i/set/css/app.css) - Layout and style of web application
+
+### Enter and scan items
+
+With ZXing, barcodes can be scanned and their sequence of digits read. For this method a camera connected to the device is required. Using Ajax and the Open Food Facts Api, the article numbers (EAN-13 or EAN-8) can be assigned to the products. The barcode scan is canceled once the product has been identified or can be canceled by clicking on the screen. After that, Js based elements are added to the DOM. Also, all items are stored in the local storage.
+
+### Search for recipes
+
+
+
 
 ## Dependencies
 
@@ -31,7 +50,7 @@ Folder recipe-i/set contains all css- and js-files, also the fontello font and g
 
 ## Installation
 
-
+Download the "recipe-i" folder or use npm.
 
 ## Copyright and License
 
