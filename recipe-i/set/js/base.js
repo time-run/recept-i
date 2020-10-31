@@ -329,7 +329,7 @@
     var api_data = {
       apiKey : '208d26acf47242e88b2e6351bf6e960c',
       ingredients : storage.map(a => a.name).join(','),
-      number : 25,
+      number : 10,
       addRecipeInformation: true,
       sort : 'min-missing-ingredients',
       cuisine : (settings['cuisine'] != 'all' ? settings['cuisine'] : ''),
