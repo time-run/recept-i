@@ -8,6 +8,7 @@ If you have not received this project by cloning from git, check out the [reposi
 ![recipe-i-fridge](/images/recept-i-fridge.png)
 
 ## Features
+
 * Basic functions - add, remove items by type in name or scanning barcode
 * Search and find recepts by ingredients
 * Filter recepts by diet, type and time
@@ -17,7 +18,16 @@ If you have not received this project by cloning from git, check out the [reposi
 
 ## Implementation
 
-## Dependancies
+### Project Structure
+
+Folder recipe-i/set contains all css- and js-files, also the fontello font and graphics.
+
+## Dependencies
+
+* [zxing](https://github.com/zxing/zxing) - barcode reader
+* [Fontello Font](https://fontello.com/) - fancy font icons
+* [Open Food Facts Api](https://world.openfoodfacts.org/) - barcode to product name
+* [Spoonacular Api](https://spoonacular.com) - find recepts with api
 
 ## Copyright and License
 
